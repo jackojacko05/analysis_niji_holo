@@ -1,11 +1,7 @@
 -- Build a BigQuery property graph from YouTube description collaboration edges.
---
--- Load these CSVs first:
---   data/current/youtube_channels_current_2026-05-30.csv
---   data/current/youtube_collab_edges_filtered_latest200_2026-05-30.csv
---
--- Example bq load flags for the videos/collabs CSVs:
---   --source_format=CSV --skip_leading_rows=1 --allow_quoted_newlines
+-- Source tables:
+--   `jackojacko05.nijiholo.youtube_channels`
+--   `jackojacko05.nijiholo.youtube_collab_edges_filtered`
 
 CREATE OR REPLACE TABLE `jackojacko05.nijiholo.youtube_character_nodes`
 CLUSTER BY org, character_id AS

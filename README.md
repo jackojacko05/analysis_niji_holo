@@ -17,7 +17,6 @@
 - [docs/plan.md](docs/plan.md): BigQuery Graph 化の実装計画
 - [docs/character-cooccurrence-ideas.md](docs/character-cooccurrence-ideas.md): キャラ同士の共起を測る案
 - [docs/recent-data-options.md](docs/recent-data-options.md): 最近データの取得候補と推奨構成
-- [docs/youtube-latest200.md](docs/youtube-latest200.md): YouTube 直近 200 本取得結果と quota メモ
 - [docs/youtube-2025-06-01-to-2026-05-31.md](docs/youtube-2025-06-01-to-2026-05-31.md): YouTube 2025-06-01 から 2026-05-31 までの取得結果
 - [docs/bigquery-load-visualization.md](docs/bigquery-load-visualization.md): BigQuery ロード結果と可視化メモ
 - [data/current](data/current): 現所属タレント・ファンアートタグの抽出結果
@@ -33,10 +32,10 @@
 - [scripts/build_current_fanart_dataset.py](scripts/build_current_fanart_dataset.py): 現所属タレント・ファンアートタグ CSV を生成
 - [scripts/build_x_search_queries.py](scripts/build_x_search_queries.py): ファンアートタグから X recent search 用 OR クエリ CSV を生成
 - [scripts/test_x_query_cost.py](scripts/test_x_query_cost.py): X API クエリ 1 本の試行とコスト概算
-- [scripts/fetch_youtube_latest_videos.py](scripts/fetch_youtube_latest_videos.py): 現所属タレントの YouTube チャンネルと直近動画メタデータを取得
+- [scripts/fetch_youtube_latest_videos.py](scripts/fetch_youtube_latest_videos.py): 現所属タレントの YouTube チャンネルと動画メタデータを取得
 - [scripts/build_youtube_collab_edges.py](scripts/build_youtube_collab_edges.py): 概要欄の既知チャンネル URL / @handle から共演候補 edge を集計
 - [scripts/visualize_bigquery_youtube_graph.py](scripts/visualize_bigquery_youtube_graph.py): BigQuery Graph から可視化 HTML を生成
-- [scripts/build_collab_hypothesis_report.py](scripts/build_collab_hypothesis_report.py): コラボ仮説の粗い検証レポートを生成
+- [scripts/build_collab_hypothesis_report.py](scripts/build_collab_hypothesis_report.py): コラボ仮説の検証レポートを生成
 - [scripts/build_note_article_assets.py](scripts/build_note_article_assets.py): note 記事用の図解 SVG/PNG を生成
 - [notebooks/niji_holo_collab_bigquery_graph.ipynb](notebooks/niji_holo_collab_bigquery_graph.ipynb): BigQuery Graph と記事用集計を再現する Notebook
 
@@ -97,26 +96,6 @@ python3 scripts/build_youtube_collab_edges.py \
 ```
 
 詳細は [docs/youtube-2025-06-01-to-2026-05-31.md](docs/youtube-2025-06-01-to-2026-05-31.md) を参照。
-
-## YouTube 直近 200 本データ（旧）
-
-2026-05-30 に YouTube Data API で取得した直近 200 本ベースのデータを [data/current](data/current) に置いています。
-
-- `youtube_channels_current_2026-05-30.csv`: 264 talent-channel rows / 261 unique channels
-- `youtube_videos_latest200_2026-05-30.csv`: 50,261 videos, title, published timestamp, description, stats（155MB のため Git 管理外）
-- `youtube_video_collaborators_latest200_2026-05-30.csv`: description match candidates, 29,653 rows
-- `youtube_collab_edges_latest200_2026-05-30.csv`: directed owner -> collaborator edges, 7,301 rows
-- `youtube_collab_edges_filtered_latest200_2026-05-30.csv`: boilerplate-like recurring links filtered out, 7,237 rows
-- `youtube_fetch_summary_latest200_2026-05-30.md`: fetch summary and heuristic notes
-- `reports/youtube_collab_graph_latest200.html`: BigQuery Graph から生成した日本語ダッシュボード（ゲーム / 歌 / その他のジャンル階層つき）
-- `reports/collab_hypothesis_rough_report_2026-05-31.md`: コラボ仮説の日本語検証レポート（ジャンル別の供給・需要分解つき）
-
-再取得:
-
-```bash
-YOUTUBE_API_KEY=... python3 scripts/fetch_youtube_latest_videos.py --max-videos 200
-python3 scripts/build_youtube_collab_edges.py
-```
 
 ## 重要な注意
 

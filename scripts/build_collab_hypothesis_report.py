@@ -403,7 +403,7 @@ def render_report(results: dict[str, list[dict[str, Any]]], output: Path) -> Non
     )
 
     lines = [
-        f"# にじさんじ / ホロライブ コラボ仮説 粗い検証レポート（{TODAY}）",
+        f"# にじさんじ / ホロライブ コラボ仮説検証レポート（{TODAY}）",
         "",
         "## 結論（暫定）",
         "",
@@ -615,7 +615,7 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--project", default="jackojacko05")
     parser.add_argument("--location", default="asia-northeast1")
-    parser.add_argument("--output", type=Path, default=REPORTS_DIR / f"collab_hypothesis_rough_report_{TODAY}.md")
+    parser.add_argument("--output", type=Path, default=REPORTS_DIR / f"collab_hypothesis_report_{TODAY}.md")
     args = parser.parse_args()
 
     results = {name: bq_query(name, sql, args.project, args.location) for name, sql in QUERIES.items()}

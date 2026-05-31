@@ -52,7 +52,6 @@ The property graph was verified by running `GRAPH_TABLE` queries against
 
 Generated from the BigQuery property graph:
 
-- `reports/youtube_collab_graph_latest200.html`
 - `reports/youtube_collab_graph_2025-06-01_to_2026-05-31.html`
 - `reports/note_draft_collab_niji_holo.md`
 - `reports/note_figures/*.png`
