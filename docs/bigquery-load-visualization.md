@@ -53,6 +53,12 @@ The property graph was verified by running `GRAPH_TABLE` queries against
 Generated from the BigQuery property graph:
 
 - `reports/youtube_collab_graph_2025-06-01_to_2026-05-31.html`
+- `notebooks/niji_holo_collab_bigquery_graph.ipynb` uses the BigQuery Graph
+  visualization magic (`%%bigquery --graph`) and returns `TO_JSON(p) AS path`
+  from GQL, following the official notebook visualization guide:
+  https://docs.cloud.google.com/bigquery/docs/graph-visualization?hl=ja
+  The notebook graph cells intentionally limit the returned paths because
+  notebook graph visualization has a 2 MB result cap.
 - `reports/note_draft_collab_niji_holo.md`
 - `reports/note_figures/*.png`
 - 表示ノード数: 107

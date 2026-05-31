@@ -37,7 +37,7 @@
 - [scripts/visualize_bigquery_youtube_graph.py](scripts/visualize_bigquery_youtube_graph.py): BigQuery Graph から可視化 HTML を生成
 - [scripts/build_collab_hypothesis_report.py](scripts/build_collab_hypothesis_report.py): コラボ仮説の検証レポートを生成
 - [scripts/build_note_article_assets.py](scripts/build_note_article_assets.py): note 記事用の図解 SVG/PNG を生成
-- [notebooks/niji_holo_collab_bigquery_graph.ipynb](notebooks/niji_holo_collab_bigquery_graph.ipynb): BigQuery Graph と記事用集計を再現する Notebook
+- [notebooks/niji_holo_collab_bigquery_graph.ipynb](notebooks/niji_holo_collab_bigquery_graph.ipynb): BigQuery Graph と記事用集計を再現する Notebook。Graph可視化は `%%bigquery --graph` を使用
 
 ## 現所属タレント・ファンアートタグデータ
 
