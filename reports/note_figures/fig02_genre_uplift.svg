@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <style>
+    .bg { fill: #ffffff; }
+    .title { font: 700 32px -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Noto Sans JP', sans-serif; fill: #172033; }
+    .subtitle { font: 400 16px -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Noto Sans JP', sans-serif; fill: #526173; }
+    .label { font: 600 16px -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Noto Sans JP', sans-serif; fill: #253247; }
+    .small { font: 400 13px -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Noto Sans JP', sans-serif; fill: #66758a; }
+    .value { font: 700 24px -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Noto Sans JP', sans-serif; fill: #172033; }
+    .axis { stroke: #cbd5e1; stroke-width: 1; }
+    .panel { fill: #f8fafc; stroke: #dce4ef; stroke-width: 1; rx: 8; }
+    .bar-bg { fill: #e8eef6; rx: 7; }
+    .note { font: 500 14px -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Noto Sans JP', sans-serif; fill: #334155; }
+  </style>
+  <rect class="bg" width="1200" height="675"/>
+
+  <text class="title" x="70" y="70">ジャンル別に見ると、差は「歌」と「その他」で大きい</text>
+  <text class="subtitle" x="70" y="104">同じライバー・同じジャンル内で、コラボ候補あり動画が通常動画よりどれだけ上振れたか。</text>
+  <text class="small" x="552" y="140">0%</text>
+  <text class="label" x="80" y="188">ゲーム</text><text class="small" x="190" y="187">にじさんじ</text>
+  <rect class="bar-bg" x="310" y="170" width="520" height="22"/>
+  <line x1="570.0" y1="167" x2="570.0" y2="195" class="axis"/>
+  <rect x="570.0" y="170" width="18.4" height="22" fill="#2563eb" rx="11.0"/>
+<text class="value" x="860" y="192">+3.1%</text><text class="small" x="980" y="189">比較137人</text><text class="small" x="190" y="232">ホロライブ</text>
+  <rect class="bar-bg" x="310" y="215" width="520" height="22"/>
+  <line x1="570.0" y1="212" x2="570.0" y2="240" class="axis"/>
+  <rect x="558.3" y="215" width="11.7" height="22" fill="#dc2626" rx="11.0"/>
+<text class="value" x="860" y="237">-2.0%</text><text class="small" x="980" y="234">比較52人</text><line class="axis" x1="80" y1="272" x2="1120" y2="272"/><text class="label" x="80" y="326">歌</text><text class="small" x="190" y="325">にじさんじ</text>
+  <rect class="bar-bg" x="310" y="308" width="520" height="22"/>
+  <line x1="570.0" y1="305" x2="570.0" y2="333" class="axis"/>
+  <rect x="570.0" y="308" width="260.0" height="22" fill="#2563eb" rx="11.0"/>
+<text class="value" x="860" y="330">+43.4%</text><text class="small" x="980" y="327">比較56人</text><text class="small" x="190" y="370">ホロライブ</text>
+  <rect class="bar-bg" x="310" y="353" width="520" height="22"/>
+  <line x1="570.0" y1="350" x2="570.0" y2="378" class="axis"/>
+  <rect x="570.0" y="353" width="52.3" height="22" fill="#06b6d4" rx="11.0"/>
+<text class="value" x="860" y="375">+8.7%</text><text class="small" x="980" y="372">比較38人</text><line class="axis" x1="80" y1="410" x2="1120" y2="410"/><text class="label" x="80" y="464">その他</text><text class="small" x="190" y="463">にじさんじ</text>
+  <rect class="bar-bg" x="310" y="446" width="520" height="22"/>
+  <line x1="570.0" y1="443" x2="570.0" y2="471" class="axis"/>
+  <rect x="570.0" y="446" width="259.9" height="22" fill="#2563eb" rx="11.0"/>
+<text class="value" x="860" y="468">+43.4%</text><text class="small" x="980" y="465">比較162人</text><text class="small" x="190" y="508">ホロライブ</text>
+  <rect class="bar-bg" x="310" y="491" width="520" height="22"/>
+  <line x1="570.0" y1="488" x2="570.0" y2="516" class="axis"/>
+  <rect x="570.0" y="491" width="61.7" height="22" fill="#06b6d4" rx="11.0"/>
+<text class="value" x="860" y="513">+10.3%</text><text class="small" x="980" y="510">比較62人</text><line class="axis" x1="80" y1="548" x2="1120" y2="548"/>
+  <text class="note" x="80" y="590">読み: ゲームは両社ともコラボが多いが、上振れ差は小さい。にじさんじ側の差は、企画・雑談・歌系の関係性消費に出やすい。</text>
+  <text class="small" x="70" y="625">source: jackojacko05.nijiholo.article_genre_uplift</text>
+
+</svg>

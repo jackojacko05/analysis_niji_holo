@@ -1,0 +1,182 @@
+{
+  "supply": [
+    {
+      "avg_collab_count": "0.3724793067051853",
+      "collab_owner_video_rows": "2462",
+      "collab_share": "0.13677017943447586",
+      "cross_org_owner_video_rows": "92",
+      "cross_org_share": "0.0051108271762679855",
+      "org": "hololive",
+      "owner_video_rows": "18001",
+      "talents": "66",
+      "updated_at": "2026-05-31 13:05:28"
+    },
+    {
+      "avg_collab_count": "0.35253308991328186",
+      "collab_owner_video_rows": "5374",
+      "collab_share": "0.12263806481058877",
+      "cross_org_owner_video_rows": "89",
+      "cross_org_share": "0.002031036056595162",
+      "org": "nijisanji",
+      "owner_video_rows": "43820",
+      "talents": "192",
+      "updated_at": "2026-05-31 13:05:28"
+    }
+  ],
+  "owner_uplift": [
+    {
+      "avg_collab_log_view_per_day_uplift": "-0.15688755757833084",
+      "avg_collab_log_view_uplift": "0.007285939159328213",
+      "avg_collab_view_per_day_uplift_pct": "-0.14519983078478937",
+      "avg_collab_view_uplift_pct": "0.0073125461938698955",
+      "comparable_talents": "61",
+      "median_collab_log_view_per_day_uplift": "-0.24900739548345885",
+      "median_collab_log_view_uplift": "0.054302139932801446",
+      "median_collab_view_per_day_uplift_pct": "-0.22042579196477885",
+      "median_collab_view_uplift_pct": "0.055803554383524245",
+      "org": "hololive",
+      "positive_view_uplift_talents": "34",
+      "updated_at": "2026-05-31 13:05:32"
+    },
+    {
+      "avg_collab_log_view_per_day_uplift": "0.23548909380223756",
+      "avg_collab_log_view_uplift": "0.21585271416358498",
+      "avg_collab_view_per_day_uplift_pct": "0.26552757908789415",
+      "avg_collab_view_uplift_pct": "0.24091959565973298",
+      "comparable_talents": "162",
+      "median_collab_log_view_per_day_uplift": "0.08864166546226665",
+      "median_collab_log_view_uplift": "0.1722316176097563",
+      "median_collab_view_per_day_uplift_pct": "0.09268903794402661",
+      "median_collab_view_uplift_pct": "0.1879529521747636",
+      "org": "nijisanji",
+      "positive_view_uplift_talents": "108",
+      "updated_at": "2026-05-31 13:05:32"
+    }
+  ],
+  "genre_uplift": [
+    {
+      "avg_collab_log_view_per_day_uplift": "-0.07989914089389899",
+      "avg_collab_log_view_uplift": "-0.04361926213062631",
+      "avg_collab_view_per_day_uplift_pct": "-0.07679054422845466",
+      "avg_collab_view_uplift_pct": "-0.04268162454663582",
+      "comparable_talents": "52",
+      "genre": "ゲーム",
+      "median_collab_log_view_per_day_uplift": "-0.1349285999704346",
+      "median_collab_log_view_uplift": "-0.01981127628892168",
+      "median_collab_view_per_day_uplift_pct": "-0.1262217027429",
+      "median_collab_view_uplift_pct": "-0.019616322505234818",
+      "org": "hololive",
+      "positive_view_uplift_talents": "22",
+      "updated_at": "2026-05-31 13:05:37"
+    },
+    {
+      "avg_collab_log_view_per_day_uplift": "-0.13753895086866594",
+      "avg_collab_log_view_uplift": "0.01583027438319592",
+      "avg_collab_view_per_day_uplift_pct": "-0.12849959636172237",
+      "avg_collab_view_uplift_pct": "0.015956236973084348",
+      "comparable_talents": "137",
+      "genre": "ゲーム",
+      "median_collab_log_view_per_day_uplift": "-0.08679251501572424",
+      "median_collab_log_view_uplift": "0.03026461803299922",
+      "median_collab_view_per_day_uplift_pct": "-0.08313268790122652",
+      "median_collab_view_uplift_pct": "0.03072724688617523",
+      "org": "nijisanji",
+      "positive_view_uplift_talents": "75",
+      "updated_at": "2026-05-31 13:05:37"
+    },
+    {
+      "avg_collab_log_view_per_day_uplift": "0.010641126600857295",
+      "avg_collab_log_view_uplift": "0.14938735229477337",
+      "avg_collab_view_per_day_uplift_pct": "0.010697944746042687",
+      "avg_collab_view_uplift_pct": "0.1611226656409135",
+      "comparable_talents": "38",
+      "genre": "歌",
+      "median_collab_log_view_per_day_uplift": "-0.04395170772236223",
+      "median_collab_log_view_uplift": "0.0837434550789048",
+      "median_collab_view_per_day_uplift_pct": "-0.04299982792485724",
+      "median_collab_view_uplift_pct": "0.08734990392833164",
+      "org": "hololive",
+      "positive_view_uplift_talents": "23",
+      "updated_at": "2026-05-31 13:05:37"
+    },
+    {
+      "avg_collab_log_view_per_day_uplift": "0.2693337762530025",
+      "avg_collab_log_view_uplift": "0.2684500770301686",
+      "avg_collab_view_per_day_uplift_pct": "0.3090920119604301",
+      "avg_collab_view_uplift_pct": "0.30793567936720034",
+      "comparable_talents": "56",
+      "genre": "歌",
+      "median_collab_log_view_per_day_uplift": "0.2725184045906169",
+      "median_collab_log_view_uplift": "0.360619151022896",
+      "median_collab_view_per_day_uplift_pct": "0.31326762884314774",
+      "median_collab_view_uplift_pct": "0.43421713672219564",
+      "org": "nijisanji",
+      "positive_view_uplift_talents": "38",
+      "updated_at": "2026-05-31 13:05:37"
+    },
+    {
+      "avg_collab_log_view_per_day_uplift": "-0.1023015916109773",
+      "avg_collab_log_view_uplift": "0.07475146013602776",
+      "avg_collab_view_per_day_uplift_pct": "-0.09724275340384425",
+      "avg_collab_view_uplift_pct": "0.07761628699319933",
+      "comparable_talents": "62",
+      "genre": "その他",
+      "median_collab_log_view_per_day_uplift": "-0.16730560783583132",
+      "median_collab_log_view_uplift": "0.09808577520066226",
+      "median_collab_view_per_day_uplift_pct": "-0.15405895438284634",
+      "median_collab_view_uplift_pct": "0.1030573960203005",
+      "org": "hololive",
+      "positive_view_uplift_talents": "36",
+      "updated_at": "2026-05-31 13:05:37"
+    },
+    {
+      "avg_collab_log_view_per_day_uplift": "0.4867412924449904",
+      "avg_collab_log_view_uplift": "0.42052721902687584",
+      "avg_collab_view_per_day_uplift_pct": "0.6270056362763246",
+      "avg_collab_view_uplift_pct": "0.5227641742682498",
+      "comparable_talents": "162",
+      "genre": "その他",
+      "median_collab_log_view_per_day_uplift": "0.3554907356286045",
+      "median_collab_log_view_uplift": "0.3605046889662228",
+      "median_collab_view_per_day_uplift_pct": "0.42688070369690845",
+      "median_collab_view_uplift_pct": "0.4340529826738946",
+      "org": "nijisanji",
+      "positive_view_uplift_talents": "127",
+      "updated_at": "2026-05-31 13:05:37"
+    }
+  ],
+  "edge_matrix": [
+    {
+      "avg_video_count": "2.734690233886801",
+      "directed_edges": "5601",
+      "dst_org": "nijisanji",
+      "src_org": "nijisanji",
+      "updated_at": "2026-05-31 13:05:39",
+      "weighted_video_count": "15317"
+    },
+    {
+      "avg_video_count": "1.4715447154471548",
+      "directed_edges": "123",
+      "dst_org": "nijisanji",
+      "src_org": "hololive",
+      "updated_at": "2026-05-31 13:05:39",
+      "weighted_video_count": "181"
+    },
+    {
+      "avg_video_count": "3.8787158145065415",
+      "directed_edges": "1682",
+      "dst_org": "hololive",
+      "src_org": "hololive",
+      "updated_at": "2026-05-31 13:05:39",
+      "weighted_video_count": "6524"
+    },
+    {
+      "avg_video_count": "1.5232558139534882",
+      "directed_edges": "86",
+      "dst_org": "hololive",
+      "src_org": "nijisanji",
+      "updated_at": "2026-05-31 13:05:39",
+      "weighted_video_count": "131"
+    }
+  ]
+}

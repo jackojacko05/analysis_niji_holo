@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <style>
+    .bg { fill: #ffffff; }
+    .title { font: 700 32px -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Noto Sans JP', sans-serif; fill: #172033; }
+    .subtitle { font: 400 16px -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Noto Sans JP', sans-serif; fill: #526173; }
+    .label { font: 600 16px -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Noto Sans JP', sans-serif; fill: #253247; }
+    .small { font: 400 13px -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Noto Sans JP', sans-serif; fill: #66758a; }
+    .value { font: 700 24px -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Noto Sans JP', sans-serif; fill: #172033; }
+    .axis { stroke: #cbd5e1; stroke-width: 1; }
+    .panel { fill: #f8fafc; stroke: #dce4ef; stroke-width: 1; rx: 8; }
+    .bar-bg { fill: #e8eef6; rx: 7; }
+    .note { font: 500 14px -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Noto Sans JP', sans-serif; fill: #334155; }
+  </style>
+  <rect class="bg" width="1200" height="675"/>
+
+  <text class="title" x="70" y="70">関係性edgeは、同じ箱の中に強く集まる</text>
+  <text class="subtitle" x="70" y="104">投稿者側から概要欄で言及された側への有向edgeを、動画数重みで集計。</text>
+  <text class="label" x="425" y="170">言及先: にじさんじ</text>
+  <text class="label" x="675" y="170">言及先: ホロライブ</text>
+  <text class="label" x="110" y="270">投稿者: にじさんじ</text>
+  <text class="label" x="110" y="420">投稿者: ホロライブ</text>
+  <rect x="340" y="205" width="220" height="120" fill="#2563eb" fill-opacity="0.85" rx="8"/><text class="value" x="372" y="259">15,317</text><text class="small" x="372" y="289">動画数重み</text><rect x="590" y="205" width="220" height="120" fill="#2563eb" fill-opacity="0.21" rx="8"/><text class="value" x="622" y="259">131</text><text class="small" x="622" y="289">動画数重み</text><rect x="340" y="355" width="220" height="120" fill="#2563eb" fill-opacity="0.23" rx="8"/><text class="value" x="372" y="409">181</text><text class="small" x="372" y="439">動画数重み</text><rect x="590" y="355" width="220" height="120" fill="#2563eb" fill-opacity="0.61" rx="8"/><text class="value" x="622" y="409">6,524</text><text class="small" x="622" y="439">動画数重み</text>
+  <text class="note" x="90" y="565">読み: 人数差の影響はあるが、箱内edgeが圧倒的に多い。にじホロ横断は見えるが、全体構造では例外的な接続として扱うのがよさそう。</text>
+  <text class="small" x="70" y="625">source: jackojacko05.nijiholo.article_edge_matrix</text>
+
+</svg>
