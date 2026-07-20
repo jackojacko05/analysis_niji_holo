@@ -57,6 +57,8 @@ Generated from the BigQuery property graph:
   visualization magic (`%%bigquery --graph`) and returns `TO_JSON(p) AS path`
   from GQL, following the official notebook visualization guide:
   https://docs.cloud.google.com/bigquery/docs/graph-visualization?hl=ja
+  The graph widget dependency is installed with
+  `pip install 'bigquery-magics[spanner-graph-notebook]==0.12.1'`.
   The notebook graph cells intentionally limit the returned paths because
   notebook graph visualization has a 2 MB result cap.
 - `reports/note_draft_collab_niji_holo.md`

@@ -1,6 +1,12 @@
 variables.json
 .DS_Store
+*.swp
+.ipynb_checkpoints/
+.jupyter/
+.venv/
+.venv-jupyter-mcp/
 build/
 .env
 .env.*
 data/current/youtube_*.csv
+reports/note_figures/notebook_fig_*.png
