@@ -1,0 +1,48 @@
+name: ci
+
+on:
+  push:
+    paths:
+      - "*.csv"
+      - "*.ipynb"
+      - ".github/workflows/ci.yml"
+  pull_request:
+    paths:
+      - "*.csv"
+      - "*.ipynb"
+      - ".github/workflows/ci.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate analysis artifacts
+        run: |
+          python3 - <<'PY'
+          import csv
+          import json
+          from pathlib import Path
+
+          for path in sorted(Path('.').glob('*.csv')):
+              with path.open(newline='', encoding='utf-8') as handle:
+                  rows = list(csv.reader(handle))
+              if len(rows) < 2 or not any(cell.strip() for cell in rows[0]):
+                  raise SystemExit(f'invalid or empty CSV: {path}')
+
+          for path in Path('.').glob('*.ipynb'):
+              payload = json.loads(path.read_text(encoding='utf-8'))
+              if payload.get('nbformat') not in (4, 5):
+                  raise SystemExit(f'unsupported notebook format: {path}')
+
+          print('analysis artifacts are structurally valid')
+          PY
+      - name: Check for credential-like markers
+        run: |
+          ! rg -n --hidden --glob '!.git/**' \
+            '(sk-[A-Za-z0-9]{20,}|gh[pousr]_[A-Za-z0-9]{20,}|-----BEGIN [A-Z ]*PRIVATE KEY-----)' .
+      - name: Check patch whitespace
+        run: git diff --check
