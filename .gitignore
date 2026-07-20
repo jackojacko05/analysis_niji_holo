@@ -2,6 +2,7 @@ variables.json
 .DS_Store
 *.swp
 .ipynb_checkpoints/
+.jupyter_ystore.db
 .jupyter/
 .venv/
 .venv-jupyter-mcp/
